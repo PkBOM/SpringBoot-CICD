@@ -11,7 +11,7 @@ public class SpringBootCicdApplication {
 
 	@GetMapping("/message")
 	public String getMsg() {
-		return "Hi.. How are you!!";
+		return "Hi.. How are you?.. All good!!";
 	}
 	
 	public static void main(String[] args) {
