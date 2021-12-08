@@ -13,6 +13,10 @@ public class SpringBootCicdApplication {
 	public String getMsg() {
 		return "Hi.. How are you?.. All good!!";
 	}
+	@GetMapping("/welcome")
+	public String welcome() {
+		return "Welcome my web-Site!!";
+	}
 	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootCicdApplication.class, args);
